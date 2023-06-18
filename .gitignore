@@ -1,2 +1,3 @@
 # ignore python files based on greet.proto
 *_pb2*
+__pycache__
