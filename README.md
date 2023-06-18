@@ -32,3 +32,17 @@ poetry install
 python -m grpc_tools.protoc -I protos --python_out=app --pyi_out=app --grpc_python_out=app protos/greet.proto
 ```
 
+## Running app
+1. (while in virtual environment) Execute the server:
+```shell
+python app/greet_server.py
+```
+
+2. (while in virtual enviroment, on another terminal):
+```shell
+python app/greet_client.py
+```
+
+3. Choice one of the options while running the client, and send the messages.
+
+4. Done
